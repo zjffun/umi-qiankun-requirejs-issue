@@ -4,7 +4,10 @@
 2. 执行 master, slave 和 slave-window 的 start
 3. 打开 http://localhost:8848/ , http://localhost:8848/slave , http://localhost:8848/slave-window
 4. http://localhost:8848/slave 会报错
-5. http://localhost:8848/slave-window 不会报错
+5. http://localhost:8848/slave-window 不报错
+6. 打开 http://localhost:8849 , http://localhost:8850
+7. http://localhost:8849 报错
+8. http://localhost:8850 不报错
 
 slave-window 对 .umirc.ts 做的修改：
 
@@ -17,4 +20,3 @@ slave-window 对 .umirc.ts 做的修改：
     // memo.output.umdNamedDefine(true);
   },
 ```
-
